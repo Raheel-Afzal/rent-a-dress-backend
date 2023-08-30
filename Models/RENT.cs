@@ -11,8 +11,7 @@ namespace FYPAPI.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class RENT
     {
         public int rentid { get; set; }
@@ -23,25 +22,5 @@ namespace FYPAPI.Models
         public string rentenddate { get; set; }
         public string pickingdate { get; set; }
         public string requeststatus { get; set; }
-
-
-
-
-        [NotMapped]
-        public List<DRESSIMAGE> images { get; set; }
-
-        [NotMapped]
-        public string Reqname { get; set; }
-
-        [NotMapped]
-        public string Reqcontact { get; set; }
-
-        [NotMapped]
-        public string Reqaddress { get; set; }
-
-        [NotMapped]
-        public string Reqcity { get; set; }
-
-
     }
 }

@@ -21,26 +21,5 @@ namespace FYPAPI.Models
         public string rentstartdate { get; set; }
         public string rentenddate { get; set; }
         public string pickingdate { get; set; }
-
-
-
-        [NotMapped]
-        public List<DRESSIMAGE> images { get; set; }
-
-        [NotMapped]
-        public string Reqname { get; set; }
-
-        [NotMapped]
-        public string Reqcontact { get; set; }
-
-        [NotMapped]
-        public string Reqaddress { get; set; }
-
-        [NotMapped]
-        public string Reqcity { get; set; }
-
-        [NotMapped]
-        public string Reqstatus { get; set; }
-
     }
 }

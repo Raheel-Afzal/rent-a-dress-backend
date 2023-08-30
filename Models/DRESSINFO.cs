@@ -26,27 +26,5 @@ namespace FYPAPI.Models
         public string quality { get; set; }
         public Nullable<double> rating { get; set; }
         public string status { get; set; }
-
-
-
-
-        [NotMapped]
-        public List<DRESSIMAGE> images { get; set; }
-
-        [NotMapped]
-        public string Oname { get; set; }
-        [NotMapped]
-        public int Oid { get; set; }
-
-        [NotMapped]
-        public string Contact { get; set; }
-
-        [NotMapped]
-        public string Address { get; set; }
-
-        [NotMapped]
-        public string City { get; set; }
-
-
     }
 }

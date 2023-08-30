@@ -17,19 +17,5 @@ namespace FYPAPI.Models
         public int fav_id { get; set; }
         public Nullable<int> userid { get; set; }
         public Nullable<int> oid { get; set; }
-
-
-        [NotMapped]
-        public string Oname { get; set; }
-
-
-        [NotMapped]
-        public string Contact { get; set; }
-
-        [System.ComponentModel.DataAnnotations.Schema.NotMapped]
-        public string Address { get; set; }
-
-        [NotMapped]
-        public string City { get; set; }
     }
 }

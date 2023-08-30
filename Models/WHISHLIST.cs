@@ -11,8 +11,7 @@ namespace FYPAPI.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class WHISHLIST
     {
         public int wislist_id { get; set; }
@@ -20,29 +19,5 @@ namespace FYPAPI.Models
         public Nullable<int> dressid { get; set; }
         public string dress_status { get; set; }
         public string availabilty_date { get; set; }
-
-        [NotMapped]
-        public List<DRESSIMAGE> images { get; set; }
-
-        [NotMapped]
-        public string Oname { get; set; }
-        [NotMapped]
-        public string Dname { get; set; }
-        [NotMapped]
-        public string Status { get; set; }
-        [NotMapped]
-        public int Oid { get; set; }
-
-        [NotMapped]
-        public string Contact { get; set; }
-
-        [NotMapped]
-        public string Address { get; set; }
-
-        [NotMapped]
-        public string City { get; set; }
-
-
-
     }
 }
